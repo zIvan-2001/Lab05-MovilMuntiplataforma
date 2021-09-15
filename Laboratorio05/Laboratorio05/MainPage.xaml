@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio05.MainPage">
+
+    <StackLayout>
+        <StackLayout Padding="10">
+            <Button x:Name="Item3" 
+                    Text="Datepicker" 
+                    Background="#e76f51"  
+                    TextColor="#fff"
+                    CornerRadius="20" 
+                    FontAttributes="Bold"/>
+            <Button x:Name="Item14" 
+                    Text="ListviewSource" 
+                    Background="#2a9d8f"  
+                    TextColor="#fff" 
+                    CornerRadius="20" 
+                    FontAttributes="Bold"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <StackLayout Padding="10">
+                <Button 
+                    x:Name="Item1" 
+                    Text="ButtonDemo"
+                    Background="#277da1"  
+                    TextColor="#fff" 
+                    CornerRadius="20" 
+                    FontAttributes="Bold"/>
+                <Button 
+                    x:Name="Item2" 
+                    Text="ButtonCode"
+                    Background="#577590"  
+                    TextColor="#fff" 
+                    CornerRadius="20" 
+                    FontAttributes="Bold"/>
+                <Button 
+                    x:Name="Item4" 
+                    Text="EditorDemo"
+                    Background="#4d908e"  
+                    TextColor="#fff" 
+                    CornerRadius="20" 
+                    FontAttributes="Bold"/>
+                <Button 
+                    x:Name="Item5" 
+                    Text="EditorCode"
+                    Background="#43aa8b"  
+                    TextColor="#fff" 
+                    CornerRadius="20" 
+                    FontAttributes="Bold"/>
+                <Button 
+                    x:Name="Item6" 
+                    Text="EntryDemo"
+                    Background="#90be6d"  
+                    TextColor="#fff" 
+                    CornerRadius="20" 
+                    FontAttributes="Bold"/>
+                <Button 
+                    x:Name="Item7" 
+                    Text="EntryCode"
+                    Background="#f9844a"  
+                    TextColor="#fff" 
+                    CornerRadius="20" 
+                    FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Padding="10">
+                <Button 
+                    x:Name="Item8" 
+                    Text="LabelDemo"
+                    Background="#f8961e"  
+                    TextColor="#fff" 
+                    CornerRadius="20" 
+                    FontAttributes="Bold"/>
+                <Button 
+                    x:Name="Item9" 
+                    Text="LabelCode"
+                    Background="#f3722c"  
+                    TextColor="#fff" 
+                    CornerRadius="20" 
+                    FontAttributes="Bold"/>
+                <Button 
+                    x:Name="Item10" 
+                    Text="LocalImage"
+                    Background="#f94144"  
+                    TextColor="#fff" 
+                    CornerRadius="20" 
+                    FontAttributes="Bold"/>
+                <Button 
+                    x:Name="Item11" 
+                    Text="EmbeddedImage"
+                    Background="#e63946"  
+                    TextColor="#fff" 
+                    CornerRadius="20" 
+                    FontAttributes="Bold"/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
